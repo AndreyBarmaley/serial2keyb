@@ -1,0 +1,9 @@
+{
+    "verbose": true,
+    "device": "/dev/ttyUSB0",
+    "speed": 9600,
+    "waitms": 100,
+    "endl": 0x0d,
+    "prefix": "",
+    "suffix": ""
+}

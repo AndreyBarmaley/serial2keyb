@@ -1,0 +1,2 @@
+ACTION=="add", SUBSYSTEMS=="usb", ATTRS{idVendor}=="0745", ATTRS{idProduct}=="1000", RUN+="/sbin/initctl emit serial2keyb-start"
+ACTION=="remove", SUBSYSTEMS=="usb", ATTRS{idVendor}=="0745", ATTRS{idProduct}=="1000", RUN+="/sbin/initctl emit serial2keyb-stop"
